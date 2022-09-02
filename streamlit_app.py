@@ -69,4 +69,3 @@ if streamlit.button('Add a fruit to the list'):
   streamlit.text(back_from_function)
 
 #This will not work correctly  but just go with it now
-
