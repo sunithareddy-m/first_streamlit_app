@@ -52,7 +52,7 @@ def get_fruit_load_list():
        return my_cur.fetchall()
     
 #Add a button to load the fruit
-if stremlit.button('get fruit_load_list'):
+if stremlit.button('get_fruit_load_list'):
  
   my_data_rows = get_fruit_load_list()
   streamlit.dataframe(my_data_rows)
